@@ -1,0 +1,8 @@
+[Unit]
+Description=Launch Open WebUI at Login
+
+[Service]
+ExecStart=/home/paolo/.scripts/launch-open-webui
+
+[Install]
+WantedBy=default.target

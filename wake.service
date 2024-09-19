@@ -1,0 +1,11 @@
+[Unit]
+Description=Wake script
+
+[Service]
+ExecStart=/home/paolo/.scripts/wake    
+Type=simple
+
+[Install]
+WantedBy=sleep.target
+
+
