@@ -1,11 +1,9 @@
 [Unit]
 Description=Launch Noisetorch at Boot
-After=default.target
 
 [Service]
-User=paolo  
-ExecStart=/home/paolo/.scripts/noise>
-Restart=always
+User=paolo
+ExecStart=/home/paolo/.scripts/launch-noisetorch
 
 [Install]
-WantedBy=multi-user.target
+WantedBy=default.target
